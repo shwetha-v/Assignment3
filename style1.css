@@ -1,24 +1,14 @@
-.container
-{
-    border:1px solid black;
-   margin-top: 20px;
-   margin-bottom: 3em; 
-   margin-left: 20px;
-   margin-right:350px;
+nav ul {
+    
+    list-style-type: none;
+    display:flex;
+    justify-content:space-around;
+}
+.li1{
+   
+    font-size: 30px;
+    color: white;
+    background-color: rgb(102, 102, 173);
+    padding:20px;
    
 }
-.box {
-    border: 5px solid rgb(143, 82, 204);
-    background-color: rgb(202, 193, 193);
-    padding: 40px;
-    margin: 40px;
-    width: 250px;
-    height: 100px;
-  }
-  
-  .alternate {
-    box-sizing: border-box;
-    width:340px;
-    height:150px;
-  
-  }
